@@ -1,0 +1,54 @@
+//IF STATEMENT
+<?php
+$name = "Sofia";
+
+if ($name == "Sofia") {
+  echo "Good Day Sofia!";
+}
+?>
+
+//IF ELSE STATEMENT
+
+<?php
+$name = "Solene";
+ 
+if ($name == "Shantal") {
+    echo " Have a great day Shantal! ";
+} else {
+    echo "Hello, $name! You are not shantal.";
+}
+?>
+
+//IF ELSEIF ELSE STATEMENT
+<?php
+$color = "Red";
+ 
+if ($color == "Yellow") {
+    echo "Yellow is a happy color. ";
+} elseif ($color == "Pink"){
+    echo "Pink is a cute color.";
+}else {
+echo "The $color beautiful color.";
+}
+?>
+
+//SWITCH STATEMENT
+<?php
+$color = "white";
+
+switch ($color) {
+    case "red":
+    case "orange":
+    case "yellow":
+        echo "Warm color";
+        break;
+    case "blue":
+    case "white":
+    case "green":
+        echo "Cool color!";
+        break;
+    default:
+        echo "Neutral color";
+        break;
+}
+?>
